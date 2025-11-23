@@ -202,7 +202,7 @@ runs:
       run: rm -f pr_body.txt pr_body.template
     - name: Create PR
       id: create-pr
-      uses: peter-evans/create-pull-request@6d6857d36972b65feb161a90e484f2984215f83e # v6.0.5
+      uses: Mai0313/create-pull-request@95b41bb74c7689393eaf7c540f02702d8d41e3e6 # issue: https://github.com/peter-evans/create-pull-request/issues/3569#issuecomment-3358943371
       with:
         base: ${{ inputs.base }}
         branch: ${{ inputs.branch }}
